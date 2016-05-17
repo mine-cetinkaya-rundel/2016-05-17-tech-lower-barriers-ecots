@@ -27,6 +27,8 @@ options(digits=3)
 
 This is a simple R Markdown file that illustrates how to calculate summary statistics, generate graphical displays, and fit regression models using the `Galton` height dataset.
 
+A variant of this activity is used on the first day of the introductory statistics courses at Amherst College.
+
 ```{r}
 glimpse(Galton)
 ```
