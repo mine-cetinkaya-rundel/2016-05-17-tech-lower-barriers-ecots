@@ -40,7 +40,7 @@ favstats(height ~ sex, data=Galton)
 #### Graphical displays
 
 ```{r}
-bwplot(height ~ sex, data=Galton)
+densityplot(~ height, group=sex, auto.key=TRUE, lwd=2, data=Galton)
 ```
 
 #### Regression
